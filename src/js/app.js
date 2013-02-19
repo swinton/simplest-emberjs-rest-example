@@ -45,6 +45,8 @@ App.User = DS.Model.extend({
     screen_name: DS.attr("string")
 });
 
+
+// Fixtures
 App.Message.FIXTURES = [{
     id: 1,
     text: "Hello lovely world",

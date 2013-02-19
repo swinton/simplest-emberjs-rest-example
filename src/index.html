@@ -21,7 +21,7 @@
 
   <script type="text/x-handlebars" data-template-name="messages">
     <h2>Messages</h2>
-    <p>Messages loads Messages from <tt>/messages</tt> but <strong>doesn&#039;t</strong> load related Users from <tt>/users</tt>. Why is this?</p>
+    <p>Messages loads Messages from <tt>/messages</tt> and loads related Users from <tt>/users</tt>.</p>
     <ul>
         {{#each message in controller}}
         {{ log message }}
