@@ -2,7 +2,9 @@
 
 A super-simple example application that uses the Ember.js REST adapter to load data from a RESTful API.
 
-There are 2 data models: User and Message. Messages belong to a User, Users have many Messages.
+There are 2 data models: `User` and `Message`. `Messages` belong to a `User`, `Users` have many `Messages`.
+
+Did I say it was simple? ;)
 
 # Usage
 
