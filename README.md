@@ -14,6 +14,10 @@ cd src
 python -m SimpleHTTPServer 3319  # and open http://localhost:3319/ in your browser :)
 ```
 
+# Example
+
+See it running at [http://swinton.github.com/simplest-emberjs-rest-example/](http://swinton.github.com/simplest-emberjs-rest-example/).
+
 # Contact
 
 @[steveWINton](http://twitter.com/steveWINton).
