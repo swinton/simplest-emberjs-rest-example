@@ -28,7 +28,10 @@ App.UsersRoute = Ember.Route.extend({
 // App.MessagesController = Ember.ArrayController.extend({});
 
 App.Store = DS.Store.extend({
-    revision: 11
+    revision: 11,
+    adapter: DS.RESTAdapter.create({
+        namespace: "simplest-emberjs-rest-example"
+    })
 });
 // App.Store = DS.Store.extend({
 //     revision: 11,
